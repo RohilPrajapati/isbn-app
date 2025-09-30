@@ -1,0 +1,81 @@
+/* BookSearch.css */
+
+.book-search-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 3rem 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.book-search-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #202124;
+}
+
+.book-search-input-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.book-search-input-container input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+.book-search-input-container button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 24px;
+  background-color: #1a73e8;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+.book-search-loading,
+.book-search-error {
+  text-align: center;
+  color: #5f6368;
+}
+
+.book-search-error {
+  color: red;
+}
+
+.book-search-result {
+  margin-top: 2rem;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+  background-color: #fff;
+}
+
+.book-search-result h2 {
+  margin-bottom: 0.5rem;
+  color: #202124;
+}
+
+.book-search-result p {
+  margin: 0.25rem 0;
+}
+
+.book-search-result p.description {
+  color: #5f6368;
+  margin: 0.5rem 0;
+}
+
+.book-search-result a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
