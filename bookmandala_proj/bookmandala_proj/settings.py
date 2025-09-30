@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = [
-    'localhost'
+    'https://isbn-app.onrender.com'
 ]
 
 
@@ -54,7 +54,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173'
+    'https://isbn-app-frontend.onrender.com'
 ]
 
 MIDDLEWARE = [
