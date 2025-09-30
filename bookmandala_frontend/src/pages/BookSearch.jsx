@@ -31,9 +31,6 @@ const BookSearch = () => {
         }
     };
 
-    const handleKeyPress = (e) => {
-        if (e.key === "Enter") handleSearch();
-    };
 
     return (
         <div className="book-search-container">
