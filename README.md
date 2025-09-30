@@ -62,17 +62,17 @@ isbn-app/
 ├─ bookmandala_proj/         # Django backend
 │  ├─ manage.py              # Django management script
 │  ├─ requirements.txt       # Python dependencies
-│  ├─ db.sqlite3       # SQLite (used for demo purpose only)
+│  ├─ db.sqlite3             # SQLite (used for demo purpose only)
 │  ├─ bookmandala_proj/      # Django project settings and wsgi
 │  │  ├─ settings.py
 │  │  ├─ urls.py
 │  │  └─ wsgi.py
-│  ├─ books/                 # Your Django apps
-│  │  ├─ models.py
-│  │  ├─ views.py
-│  │  ├─ services.py         # Core logic for handling and fetching book data
-│  │  └─ serializers.py
-│  └─ templates/             # HTML templates if needed
+│  └─ books/                 # Your Django apps
+│     ├─ models.py
+│     ├─ views.py
+│     ├─ services.py         # Core logic for handling and fetching book data
+│     └─ serializers.py
+│     └─ urls.py
 │
 ├─ bookmandala_frontend/     # React (Vite) frontend
 │  ├─ package.json
