@@ -74,7 +74,8 @@ def fetch_from_open_library(isbn: str) -> dict:
         print(f"Error fetching data: {e}")
         return {}
 
-def handle_search_isbn(isbn):
+
+def handle_search_isbn(isbn: str) -> tuple[bool, dict]:
     """
     Fetch book details by ISBN.
 
