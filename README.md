@@ -29,6 +29,15 @@ The ISBN App allows users to search for books using their ISBN numbers. The app 
    * Environment variables in the frontend (like `VITE_API_URL`) are used to point to the Django backend.
 
 ---
+## Screen Shot
+### Home Page
+![home page](./screen_shot/home_page.png)
+
+### After Search
+After searching with isbn number it will provide detail from db or open library api
+![after search page](./screen_shot/after_search.png)
+
+---
 
 ## Features
 
