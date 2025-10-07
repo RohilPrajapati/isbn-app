@@ -1,7 +1,8 @@
 import { useState } from "react";
 import axios from "axios"
 
-const apiUrl = import.meta.env.VITE_BASE_URL;
+const apiUrl = import.meta.env.VITE_BASE_URL || '/api/';
+console.log("api url",apiUrl)
 
 const BookSearch = () => {
     const [isbn, setIsbn] = useState("");
