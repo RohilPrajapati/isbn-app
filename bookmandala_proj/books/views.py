@@ -14,6 +14,6 @@ class BookSearchAPIView(APIView):
                 {"status": "Success", "data": data}, status=status.HTTP_200_OK
             )
         return Response(
-            {"status": "Failed", "message": "No Data Found", "data": []},
+            {"status": "Failed", "detail": "No Data Found", "data": []},
             status=status.HTTP_404_NOT_FOUND,
         )

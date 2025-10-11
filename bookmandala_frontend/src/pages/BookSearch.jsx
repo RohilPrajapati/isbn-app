@@ -26,7 +26,7 @@ const BookSearch = () => {
             if (!data) throw new Error("Book not found");
             setBook(data);
         } catch (err) {
-            setError(err.response?.data?.message || err.message || "Error fetching book");
+            setError(err.response?.data?.detail || err.detail || "Error fetching book");
         } finally {
             setLoading(false);
         }
