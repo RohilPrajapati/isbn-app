@@ -6,7 +6,7 @@ services:
     container_name: frontend
     restart: always
     env_file:
-      - ./bookmandala_frontend/.env
+      - ./bookmandala_frontend/.env.docker
 
   backend:
     build: ./bookmandala_proj

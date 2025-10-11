@@ -6,9 +6,9 @@ RUN npm ci
 COPY . .
 
 # Explicitly copy safe env (non-secrets) so Vite sees it on build
-COPY .env .env
+COPY .env.docker .env
 
-RUN npm run build
+RUN npm run build 
 
 # Nginx stage (serving built React app)
 FROM nginx:stable-alpine
